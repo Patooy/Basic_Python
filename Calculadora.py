@@ -2,7 +2,7 @@ Loop = True
 
 while Loop == True:
     print("Calculadora basica!")
-    print("Lista: Tabuada, multiplicação(*), divisão(/), adição(+), subtração(-) ")
+    print("Lista: Tabuada, Porcentagem, multiplicação(*), divisão(/), adição(+), subtração(-)")
     Operacao = input("Digite a expreção: ")
 
     # operações multi mista
