@@ -1,8 +1,11 @@
 Loop = True
 
 while Loop == True:
+    print("                                               ")
+    print("--------------------------")
     print("Calculadora basica!")
     print("Lista: Tabuada, Porcentagem, multiplicação(*), divisão(/), adição(+), subtração(-)")
+    print("---------------------------")
     Operacao = input("Digite a expreção: ")
 
     # operações multi mista
@@ -63,3 +66,7 @@ while Loop == True:
         porcento = float(input("Digite a %: "))
         print("Resposta: ", end="")
         print((total * porcento) / 100)
+    else:
+         print("Erro: expresão não corespondida!")
+         break
+         
