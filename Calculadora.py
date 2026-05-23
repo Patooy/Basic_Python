@@ -1,4 +1,4 @@
-giLoop = True
+Loop = True
 
 while Loop == True:
     print("Calculadora basica!")
